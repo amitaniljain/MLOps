@@ -34,7 +34,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/ -v
+          PYTHONPATH=$GITHUB_WORKSPACE python -m pytest tests/ -v
 
       - name: Train models
         run: |
