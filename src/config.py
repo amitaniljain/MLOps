@@ -4,7 +4,10 @@ RANDOM_STATE = 42
 TEST_SIZE = 0.2
 CV_FOLDS = 5
 
-DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data"
+DATA_URL = (
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/"
+    "heart-disease/processed.cleveland.data"
+)
 
 COLUMNS = [
     "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg",
