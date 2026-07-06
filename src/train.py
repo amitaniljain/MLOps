@@ -77,6 +77,7 @@ def create_plots(model, X_test, y_test, model_name):
 
     return cm_path, roc_path
 
+mlflow.set_tracking_uri("file:./mlruns")
 
 def train_one_model(name, classifier, params):
     X, y = load_data()
@@ -90,7 +91,7 @@ def train_one_model(name, classifier, params):
             ("classifier", classifier),
         ]
     )
-
+     
     with mlflow.start_run(run_name=name):
         pipeline.fit(X_train, y_train)
         metrics = evaluate(pipeline, X_test, y_test)
