@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cloud/Downloads/Rev%201/heart-disease-mlops/mlruns/511521135854672264/87a14562ce0c4682a966798ed9770e9e/artifacts
+end_time: 1783091404537
+entry_point_name: ''
+experiment_id: '511521135854672264'
+lifecycle_stage: active
+run_id: 87a14562ce0c4682a966798ed9770e9e
+run_name: logistic_regression
+run_uuid: 87a14562ce0c4682a966798ed9770e9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783091396929
+status: 3
+tags: []
+user_id: cloud

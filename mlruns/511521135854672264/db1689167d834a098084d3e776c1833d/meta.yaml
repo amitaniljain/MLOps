@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cloud/Downloads/Rev%201/heart-disease-mlops/mlruns/511521135854672264/db1689167d834a098084d3e776c1833d/artifacts
+end_time: 1783091410897
+entry_point_name: ''
+experiment_id: '511521135854672264'
+lifecycle_stage: active
+run_id: db1689167d834a098084d3e776c1833d
+run_name: random_forest
+run_uuid: db1689167d834a098084d3e776c1833d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783091404546
+status: 3
+tags: []
+user_id: cloud
