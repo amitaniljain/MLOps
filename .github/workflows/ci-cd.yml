@@ -27,6 +27,10 @@ jobs:
       - name: Lint code
         run: |
           flake8 src api tests --max-line-length=100
+      - name: Create artifact directories
+        run: |
+          mkdir -p mlruns
+          mkdir -p models
 
       - name: Download dataset
         run: |
